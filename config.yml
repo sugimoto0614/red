@@ -1,0 +1,9 @@
+commands:
+  sayhello:
+    description: "Easy Command"
+    parameters:
+      to:
+        type: string
+        default: "Hello World"
+    steps:
+      - run: echo << parameters.to >>
