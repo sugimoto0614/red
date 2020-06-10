@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html;charset=Shift_JIS">
+<title>杉本電気システムソリューション</title>
+<link href="../css/common.css" rel="stylesheet" media="all">
+<link href="../css/dummy.css?ver=20200307" rel="stylesheet" media="all">
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9&appId=962202797129668";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="wrap">
+
+
+<!--ヘッダエリア-->
+<div id="head">
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<th><a href="../index.html">杉本電気システムソリューション</a></th>
+<td>
+<em id="tel">090-0000-0000</em>
+<em id="form"><a href="../question.html"><img src="../images/form.jpg" alt="お問い合わせフォーム" height="25" width="167" border="0"></a></em>
+</td>
+</tr>
+</table>
+</div>
+<!--/ヘッダエリア-->
+
+<!--コンテンツエリア-->
+<div id="cont">
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<!--サイドメニュー-->
+<td valign="top" id="menu">
+<ul>
+<li><a href="../index.html">トップページ</a></li>
+<li><a href="../about.html">杉本電気システムソリューションについて</a></li>
+<li><a href="../item.html">取扱システム一覧</a></li>
+<li><a href="../appliitem.html">アプリ製品一覧</a></li>
+<li><a href="../profile.html">組織概要</a></li>
+<li><a href="#">PLCとは</a>
+<ul>
+<li><a href="../plc/plc.html">PLC概要</a></li>
+<li><a href="../plc/hard.html">電気図面</a></li>
+<li><a href="../plc/ladder.html">ラダー・ロジックとは</a></li>
+<li><a href="../plc/servo.html">サーボ</a></li>
+</ul>
+</li>
+<li><a href="../technology.html">PLCとITの連携技術</a></li>
+<li><a href="../note.html">備忘録</a></li>
+<li><a href="../question.html">お問い合わせフォーム</a></li>
+</ul>
+<address>
+杉本電気システムソリューション<br />
+〒<br />
+大阪府堺市北区<br />
+電話：090-0000-0000<br />
+<div style="padding: 3px" >
+<a href="https://www.facebook.com/profile.php?id=100007404393215" TARGET="_blank"><img src="../images/Japanese_FB_FindUsOnFacebook-100.png" alt="FaceBook" height="35" width="120"></a>
+</div >
+<div style="padding: 3px" >
+<a href="../japanseiha.html" TARGET="_blank"><img src="../images/JapanSeiha.png" alt="JapanSeiha" height="35" width="120"></a>
+</div >
+<div style="padding: 3px" >
+<a href="http://www.osakanight.com/" TARGET="_blank"><img src="../images/osakayakei.gif" alt="OsakaYakei" height="35" width="120"></a>
+</div >
+<div style="padding: 3px" >
+<a href="https://www.youtube.com/channel/UCxW7BrxY6XsdRRUEa_OpYIA" TARGET="_blank"><img src="../images/YouTube-logo-full_color.png" alt="YouTube" height="50" width="120"></a>
+</div >
+<div style="padding: 3px" >
+<a href="https://www.instagram.com/takuya6480/?hl=ja" TARGET="_blank"><img src="../images/Instagram_AppIcon.png" alt="Instagram" height="50" width="120"></a>
+</div >
+</address>
+</td>
+<!--/サイドメニュー-->
+
+<!--メイン-->
+<td valign="top" width="570" id="main">
+
+<div id="ctitle">
+<h3>サーボの電気制御</h3>
+</div>
+
+<div id="lead">
+<h4>サーボモーターとは物体の位置を制御量として、目標値に追従するように自動で作動するモーターです。
+</h4>
+<div class="img_r">
+<img src="../images/servoamp.png" alt="" height="160" width="220" border="0">
+<p>サーボアンプ <br>キーエンス SVシリーズ</p>
+</div>
+<div class="explanation">
+<p>
+といっても難しくありません。
+簡単に言えば単純にモーターをＯＮ・ＯＦＦするのではなく、
+何ｍｍ動けといった位置を指定して動かすことができるモーターです。
+</p>
+<p>
+ＰＬＣでサーボモーターを動作させるときは、ＰＬＣ→サーボアンプ→サーボモーターの順番で命令します。
+</p>
+<p>
+当方は三菱電機、キーエンス、オムロンのサーボを制御するシステムを開発した実績がありますが、今回は初心者でも分かりやすいキーエンスのサーボ制御を紹介します。
+</p>
+<p>
+キーエンスのサーボアンプはＫＶ－ＭＯＴＩＯＮと呼ばれるＰＣソフトでプログラムを書くことなく、速度や動きの設定ができます。
+</p>
+<p>
+ＰＬＣで組むプログラムはデータメモリで位置を指定し、サーボアンプにサーボ動作命令を行うだけです。
+</p>
+<p>
+百聞は一見にしかずということで、プログラムを見てもらいます。
+(ＰＬＣに接続するサーボモーションユニットはＫＶ－ＭＬ１６Ｖ、サーボアンプはＳＶを使用。)
+</p>
+<div class="clear">
+<h3>
+・サーボ電源ＯＮ
+</h3>
+<p></p>
+<p>
+↓画像をClickで拡大↓<br>
+<a href="javascript:void(0)" onclick=" window.open('../images/servo1.png', '_blank', 'width=1000,height=700,scrollbars=yes,toolbar=no,menubar=no,directories=no,location=no'); ">
+<img src="../images/servo1.png" width="550" height="100" alt=""/>
+</a> 
+</p>
+<p>
+三菱電機のＰＬＣでいうＸ番号(入力)・Ｙ番号(出力)は、キーエンスのＰＬＣではＲ番号(入力・出力とも)になります。
+またＬＲ番号はラッチリレーと呼ばれ、三菱電機のＰＬＣでいうＭ番号で電源を切ってもＯＮ・ＯＦＦの状態を保持しているリレーです。
+</p>
+<p>
+ＣＲ２００２は常時ＯＮの特殊リレー(常に接点は繋がっています)です。Ｒ１１６００(動作許可)、Ｒ１４１１３(軸１サーボＯＮ)は、
+ＰＬＣのサーボモーションユニット(ＫＶ－ＭＬ１６Ｖ)の設定時に自動で割り振られる番号です。
+</p>
+<p>
+※以下同様ですが、サーボ制御に使用するＲ番号はサーボモーションユニットの設定時に自動割り振りされます。
+このＲ番号は設定によって番号が変わりますので、ご注意ください。
+このサイトのＲ番号はあくまでも一例としてください。
+どの番号のどのリレーかはＫＶ－ＭＬ１６Ｖのマニュアルに表があります。
+</p>
+<p>
+このプログラムではまずＰＬＣ起動時にサーボの電源をＯＮにしています。
+</p>
+<h3>
+・位置決めの値をサーボアンプに設定
+</h3>
+<p></p>
+<p>
+↓画像をClickで拡大↓<br>
+<a href="javascript:void(0)" onclick=" window.open('../images/servo2.png', '_blank', 'width=1000,height=700,scrollbars=yes,toolbar=no,menubar=no,directories=no,location=no'); ">
+<img src="../images/servo2.png" width="550" height="100" alt=""/>
+</a>
+</p>
+<p></p>
+<p>
+２００ｍｍの位置に移動するよう値をサーボアンプの目標位置格納バッファ領域に書き込んでいます。
+ＵＷＲＩＴ命令文はバッファアドレス18016(開始ポイント番号１の目標位置格納領域)に、
+データメモリＤＭ５００に格納されている値：２００を書き込む命令です。
+</p>
+<p>
+※キーエンスのデータメモリはＤＭ番号になります。またバッファアドレスもＫＶ－ＭＬ１６Ｖのマニュアルに表があります。
+位置決めの単位ｍｍはＫＶ－ＭＯＴＩＯＮで設定します。
+</p>
+
+<h3>
+・位置決め指令
+</h3>
+<p></p>
+<p>
+↓画像をClickで拡大↓<br>
+<a href="javascript:void(0)" onclick=" window.open('../images/servo3.png', '_blank', 'width=1000,height=700,scrollbars=yes,toolbar=no,menubar=no,directories=no,location=no'); ">
+<img src="../images/servo3.png" width="550" height="300" alt=""/>
+</a>
+</p>
+<p></p>
+<p>
+Ｒ０００(入力)を運転開始ボタン、Ｒ１０００(入力)を運転停止ボタンとしています。
+</p>
+<p>
+Ｕ＿ＷＲＰＰＮＴ命令文で目標位置格納した開始ポイント番号１を設定し、
+サーボ位置決め制御開始リレーＲ１００００をＯＮしています。
+これでサーボが２００ｍｍの位置に移動します。
+</p>
+<p>
+※ＳＥＴ命令文は一度リレーをＯＮしたら、ＲＥＳ命令を行うまでＯＦＦになりません。
+位置決め制御開始要求をサーボアンプが受け付けたら（Ｒ１０８００で判断）、Ｒ１００００をＯＦＦにしています。
+</p>
+<p>
+※位置決め完了(＝２００ｍｍの位置に移動完了)したら、Ｒ１０８０２がＯＮします。その時点でＲ１０００２をＯＦＦにします。
+(これはお決まりですので深く考えないでください。)
+</p>
+<p>
+運転停止したいときは減速停止リレーＲ１４００２をＯＮにします。
+</p>
+<h3>
+・サーボを動作させるだけのプログラムはワンパターン
+</h3>
+<p></p>
+<p>
+上記紹介したサーボプログラムは実は、ＫＶ－ＭＬ１６Ｖのマニュアルのサンプルプログラムとほとんど同じです。
+</p>
+<p>
+サーボを動かすだけのプログラムは決まり決まったワンパターンプログラムになっています。
+（どのように応用的に動かすかが、電気制御技術者の設計力の見せ所です。）また同期制御(例：サーボモーター軸１と軸２を同期して動作させる制御)もサンプルプログラムと設定でできます。
+詳しくはＫＶ－ＭＬ１６Ｖのマニュアルを参照ください。
+</p>
+
+</div>
+</div>
+</div>
+
+<div class="fb-like" data-href="http://sugielectric.php.xdomain.jp/plc/servo.html" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
+<!--コピーライト-->
+<div id="copyright">
+Produced by <a href="http://www.dimbula.jp" target="_blank">無料でホームページを作成</a>しよう
+</div>
+<!--/コピーライト-->
+
+
+
+</td>
+<!--/メイン-->
+</tr>
+</table>
+</div>
+<!--/コンテンツエリア-->
+
+
+
+
+</div>
+</body>
+
+</html>
